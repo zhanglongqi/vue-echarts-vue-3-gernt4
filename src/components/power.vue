@@ -56,7 +56,7 @@ const option = reactive({
 });
 onMounted(() => {
   setInterval(() => {
-    // option.series[0].data[0] = props.value;
+    // option.series[0].data[0].value = props.value;
   }, 1000);
 });
 </script>
